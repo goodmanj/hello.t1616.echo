@@ -1,0 +1,194 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Blinkbutton1616-rescue:C-fab C1
+U 1 1 60024360
+P 3600 3000
+F 0 "C1" H 3715 3046 50  0000 L CNN
+F 1 "C" H 3715 2955 50  0000 L CNN
+F 2 "fab:fab-C1206" H 3638 2850 50  0001 C CNN
+F 3 "" H 3600 3000 50  0001 C CNN
+	1    3600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Blinkbutton1616-rescue:Conn_FTDI_01x06_Male-fab J2
+U 1 1 600252B5
+P 7350 3600
+F 0 "J2" H 7181 3519 50  0000 R CNN
+F 1 "Conn_FTDI_01x06_Male" H 7181 3610 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7350 3600 50  0001 C CNN
+F 3 "~" H 7350 3600 50  0001 C CNN
+	1    7350 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Blinkbutton1616-rescue:Conn_01x03_Male-fab J1
+U 1 1 6002AE56
+P 5600 2150
+F 0 "J1" H 5708 2431 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5708 2340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5600 2150 50  0001 C CNN
+F 3 "~" H 5600 2150 50  0001 C CNN
+	1    5600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 6002F762
+P 5400 4700
+F 0 "#PWR04" H 5400 4450 50  0001 C CNN
+F 1 "GND" H 5405 4527 50  0000 C CNN
+F 2 "" H 5400 4700 50  0001 C CNN
+F 3 "" H 5400 4700 50  0001 C CNN
+	1    5400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 60030757
+P 7000 4000
+F 0 "#PWR010" H 7000 3750 50  0001 C CNN
+F 1 "GND" H 7005 3827 50  0000 C CNN
+F 2 "" H 7000 4000 50  0001 C CNN
+F 3 "" H 7000 4000 50  0001 C CNN
+	1    7000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3800 7000 3800
+Wire Wire Line
+	7000 3800 7000 4000
+$Comp
+L power:GND #PWR06
+U 1 1 600344F7
+P 6150 2200
+F 0 "#PWR06" H 6150 1950 50  0001 C CNN
+F 1 "GND" H 6155 2027 50  0000 C CNN
+F 2 "" H 6150 2200 50  0001 C CNN
+F 3 "" H 6150 2200 50  0001 C CNN
+	1    6150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 600351AD
+P 6150 2000
+F 0 "#PWR05" H 6150 1850 50  0001 C CNN
+F 1 "VCC" H 6165 2173 50  0000 C CNN
+F 2 "" H 6150 2000 50  0001 C CNN
+F 3 "" H 6150 2000 50  0001 C CNN
+	1    6150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2050 6150 2050
+Wire Wire Line
+	6150 2050 6150 2000
+Wire Wire Line
+	5800 2150 6150 2150
+Wire Wire Line
+	6150 2150 6150 2200
+Wire Wire Line
+	6250 2950 6250 2500
+Wire Wire Line
+	6250 2500 5800 2500
+Wire Wire Line
+	5800 2500 5800 2250
+$Comp
+L power:GND #PWR02
+U 1 1 60036A72
+P 3600 3300
+F 0 "#PWR02" H 3600 3050 50  0001 C CNN
+F 1 "GND" H 3605 3127 50  0000 C CNN
+F 2 "" H 3600 3300 50  0001 C CNN
+F 3 "" H 3600 3300 50  0001 C CNN
+	1    3600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 60037A2A
+P 3600 2650
+F 0 "#PWR01" H 3600 2500 50  0001 C CNN
+F 1 "VCC" H 3615 2823 50  0000 C CNN
+F 2 "" H 3600 2650 50  0001 C CNN
+F 3 "" H 3600 2650 50  0001 C CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2650 3600 2850
+Wire Wire Line
+	3600 3150 3600 3300
+Wire Wire Line
+	6000 2950 6250 2950
+$Comp
+L power:VCC #PWR07
+U 1 1 60042160
+P 6750 3600
+F 0 "#PWR07" H 6750 3450 50  0001 C CNN
+F 1 "VCC" H 6765 3773 50  0000 C CNN
+F 2 "" H 6750 3600 50  0001 C CNN
+F 3 "" H 6750 3600 50  0001 C CNN
+	1    6750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3600 6750 3600
+Wire Wire Line
+	7150 3500 6950 3500
+Wire Wire Line
+	7150 3400 6950 3400
+Text GLabel 6950 3400 2    50   Input ~ 0
+RX
+Text GLabel 6950 3500 2    50   Output ~ 0
+TX
+$Comp
+L power:VCC #PWR03
+U 1 1 6004B5E2
+P 5400 2400
+F 0 "#PWR03" H 5400 2250 50  0001 C CNN
+F 1 "VCC" H 5415 2573 50  0000 C CNN
+F 2 "" H 5400 2400 50  0001 C CNN
+F 3 "" H 5400 2400 50  0001 C CNN
+	1    5400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2400 5400 2750
+Wire Wire Line
+	5400 4700 5400 4550
+$Comp
+L MCU_Microchip_ATtiny:ATtiny1616-S U1
+U 1 1 600136EB
+P 5400 3650
+F 0 "U1" H 5400 4731 50  0000 C CNN
+F 1 "ATtiny1616-S" H 5400 4640 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 5400 3650 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf" H 5400 3650 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4350 6250 4350
+Wire Wire Line
+	6000 4250 6250 4250
+Text GLabel 6250 4350 0    50   Input ~ 0
+TX
+Text GLabel 6250 4250 0    50   Output ~ 0
+RX
+$EndSCHEMATC

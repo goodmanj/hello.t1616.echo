@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Blinkbutton1616-rescue)(type Legacy)(uri ${KIPRJMOD}/Blinkbutton1616-rescue.lib)(options "")(descr ""))
+)
