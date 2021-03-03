@@ -30,7 +30,7 @@ U 1 1 600252B5
 P 7350 3600
 F 0 "J2" H 7181 3519 50  0000 R CNN
 F 1 "Conn_FTDI_01x06_Male" H 7181 3610 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7350 3600 50  0001 C CNN
+F 2 "fab:Header_SMD_01x06_P2.54mm_Horizontal_Male" H 7350 3600 50  0001 C CNN
 F 3 "~" H 7350 3600 50  0001 C CNN
 	1    7350 3600
 	-1   0    0    1   
@@ -41,7 +41,7 @@ U 1 1 6002AE56
 P 5600 2150
 F 0 "J1" H 5708 2431 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 5708 2340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5600 2150 50  0001 C CNN
+F 2 "fab:Header_SMD_01x03_P2.54mm_Horizontal_Male" H 5600 2150 50  0001 C CNN
 F 3 "~" H 5600 2150 50  0001 C CNN
 	1    5600 2150
 	1    0    0    -1  
@@ -184,11 +184,11 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 4350 6250 4350
+	6000 4150 6250 4150
 Wire Wire Line
-	6000 4250 6250 4250
-Text GLabel 6250 4350 0    50   Input ~ 0
+	6000 4050 6250 4050
+Text GLabel 6250 4150 0    50   Input ~ 0
 TX
-Text GLabel 6250 4250 0    50   Output ~ 0
+Text GLabel 6250 4050 0    50   Output ~ 0
 RX
 $EndSCHEMATC
