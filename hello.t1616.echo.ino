@@ -27,7 +27,7 @@ void setup() {
 void loop() {
    if (Serial.available() > 0) {
       chr = Serial.read();
-      Serial.print("hello.t1614.echo: you typed \"");
+      Serial.print("hello.t1616.echo: you typed \"");
       buffer[index++] = chr;
       if (index == (max_buffer-1))
          index = 0;
