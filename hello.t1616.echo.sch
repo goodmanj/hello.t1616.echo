@@ -18,7 +18,7 @@ L Blinkbutton1616-rescue:C-fab C1
 U 1 1 60024360
 P 3600 3000
 F 0 "C1" H 3715 3046 50  0000 L CNN
-F 1 "1 uF" H 3715 2955 50  0000 L CNN
+F 1 "C" H 3715 2955 50  0000 L CNN
 F 2 "fab:fab-C1206" H 3638 2850 50  0001 C CNN
 F 3 "" H 3600 3000 50  0001 C CNN
 	1    3600 3000
@@ -183,14 +183,12 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-
 	1    5400 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6000 4150 6250 4150
+Wire Wire Line
+	6000 4050 6250 4050
 Text GLabel 6250 4150 0    50   Input ~ 0
 TX
 Text GLabel 6250 4050 0    50   Output ~ 0
 RX
-Wire Wire Line
-	6000 4050 6250 4050
-Wire Wire Line
-	6000 4150 6250 4150
-Text Label 6250 2650 0    50   ~ 0
-UPDI
 $EndSCHEMATC

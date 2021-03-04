@@ -1,10 +1,11 @@
 //
-// hello.t1614.echo.ino
+// hello.t1616.echo.ino
 //
-// tiny1614 echo hello-world
+// tiny1616 echo hello-world
 //    115200 baud
 //
 // Neil Gershenfeld 12/22/19
+// Cosmetic edits by Jason Goodman 3/3/2021
 //
 // This work may be reproduced, modified, distributed,
 // performed, and displayed for any purpose, but must
